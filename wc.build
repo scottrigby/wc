@@ -1,0 +1,11 @@
+; Core build
+core = 7.x
+api = 2
+
+; Include the definition for how to build Drupal core directly:
+includes[] = wc.make
+
+; Download the install profile and recursively build all its dependencies:
+projects[wc][type] = profile
+projects[wc][download][type] = git
+projects[wc][download][url] = "git@github.com:scottrigby/wc.git"
