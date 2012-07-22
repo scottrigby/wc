@@ -12,6 +12,7 @@ projects[entityform][subdir] = "contrib"
 projects[highcharts][version] = 2.x-dev
 projects[highcharts][subdir] = "contrib"
 projects[libraries][subdir] = "contrib"
+projects[rules][version] = 2.x-dev
 projects[rules][subdir] = "contrib"
 projects[views][subdir] = "contrib"
 
