@@ -22,6 +22,10 @@ projects[og][subdir] = "contrib"
 projects[entityreference][subdir] = "contrib"
 projects[entityreference_prepopulate][subdir] = "contrib"
 
+; Developer
+projects[admin_menu][subdir] = "developer"
+projects[devel][subdir] = "developer"
+
 ; Libraries
 libraries[highcharts][type] = "libraries"
 libraries[highcharts][download][type] = "file"

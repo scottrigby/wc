@@ -26,15 +26,14 @@ dependencies[] = file
 dependencies[] = rdf
 
 ; Contrib: Charts
-dependencies[] = ctools
-dependencies[] = entity
 dependencies[] = entityform
-dependencies[] = highcharts
-dependencies[] = libraries
-dependencies[] = rules
-dependencies[] = views
+dependencies[] = highcharts_views
+dependencies[] = views_ui
 
 ; Contrib: Groups
-dependencies[] = og
-dependencies[] = entityreference
 dependencies[] = entityreference_prepopulate
+dependencies[] = og
+
+; Developer
+dependencies[] = admin_menu_toolbar
+dependencies[] = devel_generate
