@@ -1,0 +1,16 @@
+<?php
+
+/**
+ * @file
+ * Installation tasks for install profile.
+ */
+
+/**
+ * Implement hook_install().
+ *
+ * Perform actions to set up the site for this profile.
+ */
+function wc_install() {
+  include_once DRUPAL_ROOT . '/profiles/standard/standard.install';
+  standard_install();
+}
