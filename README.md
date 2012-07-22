@@ -31,7 +31,7 @@ How to make
 
         `git clone --recursive --branch master http://git.drupal.org/project/drush.git`
 
-3.  Run `drush make [-options] [filename.make] [build path]` on the make file (see drush/docs/make.txt for options):
-    * To build Drupal core along with the wc install profile, run wc.make:
+3.  Run `drush make [-options] [filename.make] [build path]` on the desired makefile (see drush/docs/make.txt for options):
+    * To build Drupal core along with the wc install profile, run wc.build:
 
-        `drush make wc.make --working-copy`
+        `drush make wc.build --working-copy`
