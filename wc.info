@@ -27,6 +27,7 @@ dependencies[] = rdf
 
 ; Contrib: Charts
 dependencies[] = ctools
+dependencies[] = entity
 dependencies[] = entityform
 dependencies[] = highcharts
 dependencies[] = libraries

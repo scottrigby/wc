@@ -5,6 +5,8 @@ projects[] = drupal
 
 ; Contrib: Charts
 projects[ctools][subdir] = "contrib"
+projects[entity][version] = "1.x-dev"
+projects[entity][subdir] = "contrib"
 projects[entityform][version] = "1.x-dev"
 projects[entityform][subdir] = "contrib"
 projects[highcharts][version] = 2.x-dev
