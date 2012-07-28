@@ -9,6 +9,7 @@ projects[entity][version] = "1.x-dev"
 projects[entity][subdir] = "contrib"
 projects[entityform][version] = "1.x-dev"
 projects[entityform][subdir] = "contrib"
+projects[features][subdir] = "contrib"
 projects[highcharts][version] = 2.x-dev
 projects[highcharts][subdir] = "contrib"
 projects[libraries][subdir] = "contrib"
