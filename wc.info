@@ -32,7 +32,7 @@ dependencies[] = views_ui
 
 ; Contrib: Groups
 dependencies[] = entityreference_prepopulate
-dependencies[] = og
+dependencies[] = og_ui
 
 ; Developer
 dependencies[] = admin_menu_toolbar

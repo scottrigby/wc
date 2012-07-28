@@ -21,6 +21,7 @@ projects[og][version] = 2.x-dev
 projects[og][subdir] = "contrib"
 projects[entityreference][subdir] = "contrib"
 projects[entityreference_prepopulate][subdir] = "contrib"
+projects[views_bulk_operations][subdir] = "contrib"
 
 ; Developer
 projects[admin_menu][subdir] = "developer"
