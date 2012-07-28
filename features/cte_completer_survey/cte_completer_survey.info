@@ -38,6 +38,7 @@ features[field][] = entityform-cte_completer_survey-field_working_to_obtain_cert
 features[field][] = node-district-body
 features[field][] = node-district-group_group
 features[field][] = node-school-body
+features[field][] = node-school-field_district
 features[field][] = node-school-group_group
 features[node][] = district
 features[node][] = school
