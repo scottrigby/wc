@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the CTE completer survey feature.
+ */
+
+include_once 'cte_completer_survey.features.inc';
