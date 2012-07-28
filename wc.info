@@ -34,6 +34,9 @@ dependencies[] = views_ui
 dependencies[] = entityreference_prepopulate
 dependencies[] = og_ui
 
+; Custom
+dependencies[] = cte_completer_survey
+
 ; Developer
 dependencies[] = admin_menu_toolbar
 dependencies[] = devel_generate
