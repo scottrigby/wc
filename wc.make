@@ -22,10 +22,17 @@ projects[views][subdir] = "contrib"
 projects[og][version] = 2.x-dev
 projects[og][subdir] = "contrib"
 projects[entityreference][subdir] = "contrib"
+projects[entityreference][patch][] = "http://drupal.org/files/entityreference-feeds_integration-1616680-10.patch"
 projects[entityreference_prepopulate][subdir] = "contrib"
-projects[views_bulk_operations][subdir] = "contrib"
+projects[views_bulk_operations][subdir] = "contrib
 
-; Developer
+; Contrib: Importing
+projects[feeds][version] = 2.x-dev
+projects[feeds][subdir] = "contrib"
+projects[feeds][patch][] = "http://drupal.org/files/1033202-69-feeds-generic_entity_processor.patch"
+projects[job_scheduler][subdir] = "contrib"
+
+; Contrib: Developer
 projects[admin_menu][subdir] = "developer"
 projects[devel][subdir] = "developer"
 
