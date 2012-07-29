@@ -12,6 +12,10 @@ function cte_completer_survey_ctools_plugin_api() {
   if ($module == "feeds" && $api == "feeds_importer_default") {
     return array("version" => "1");
   }
+  list($module, $api) = func_get_args();
+  if ($module == "field_validation" && $api == "default_field_validation_rules") {
+    return array("version" => "2");
+  }
 }
 
 /**
@@ -28,15 +32,12 @@ function cte_completer_survey_default_entityform_type() {
       "draft_button_text" : "",
       "draft_save_text" : "",
       "submit_button_text" : "",
-      "submission_rules" : [],
-      "notification_text" : "",
-      "notify_emails" : "",
       "submission_page_title" : "",
       "submission_text" : "",
       "submission_show_submitted" : 0,
       "submissions_view" : "entityforms",
       "form_status" : "ENTITYFORM_OPEN",
-      "roles" : [],
+      "roles" : { "1" : "1", "2" : "2" },
       "resubmit_action" : "new",
       "redirect_path" : "",
       "instruction_pre" : ""
