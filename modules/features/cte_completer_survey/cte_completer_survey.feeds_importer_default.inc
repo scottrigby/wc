@@ -44,103 +44,103 @@ function cte_completer_survey_feeds_importer_default() {
             'unique' => 1,
           ),
           1 => array(
-            'source' => 'Preparation for further education or employment ',
-            'target' => 'field_preparation_edu_employment',
-            'unique' => 0,
-          ),
-          2 => array(
             'source' => 'Certification or license',
             'target' => 'field_certification_or_license',
             'unique' => 0,
           ),
-          3 => array(
+          2 => array(
             'source' => 'Working to obtain certification or license',
             'target' => 'field_working_to_obtain_certific',
             'unique' => 0,
           ),
-          4 => array(
+          3 => array(
             'source' => 'On active duty',
             'target' => 'field_on_active_duty',
             'unique' => 0,
           ),
-          5 => array(
+          4 => array(
             'source' => 'Employed full time',
             'target' => 'field_employed_full_time',
             'unique' => 0,
           ),
-          6 => array(
+          5 => array(
             'source' => 'Employed part time',
             'target' => 'field_employed_part_time',
             'unique' => 0,
           ),
-          7 => array(
+          6 => array(
             'source' => 'Seeking employment',
             'target' => 'field_seeking_employment',
             'unique' => 0,
           ),
-          8 => array(
+          7 => array(
             'source' => 'Reason not employed',
             'target' => 'field_reason_not_employed',
             'unique' => 0,
           ),
-          9 => array(
+          8 => array(
             'source' => 'CTE required for current job',
             'target' => 'field_cte_required_for_current_j',
             'unique' => 0,
           ),
-          10 => array(
+          9 => array(
             'source' => 'CTE related to current job',
             'target' => 'field_cte_related_to_current_job',
             'unique' => 0,
           ),
-          11 => array(
+          10 => array(
             'source' => 'Certification related to current job',
             'target' => 'field_certification_related_to_c',
             'unique' => 0,
           ),
-          12 => array(
+          11 => array(
             'source' => 'CTE skills in current job',
             'target' => 'field_cte_skills_in_current_job',
             'unique' => 0,
           ),
-          13 => array(
+          12 => array(
             'source' => 'Additional education',
             'target' => 'field_additional_education',
             'unique' => 0,
           ),
-          14 => array(
+          13 => array(
             'source' => 'Full or part time student',
             'target' => 'field_full_or_part_time_student',
             'unique' => 0,
           ),
-          15 => array(
+          14 => array(
             'source' => 'Additional education types',
             'target' => 'field_additional_education_types',
             'unique' => 0,
           ),
-          16 => array(
+          15 => array(
             'source' => 'CTE related to additional education',
             'target' => 'field_cte_related_to_additional_',
             'unique' => 0,
           ),
-          17 => array(
+          16 => array(
             'source' => 'Comments or suggestions',
             'target' => 'field_comments_or_suggestions',
             'unique' => 0,
           ),
-          18 => array(
+          17 => array(
             'source' => 'Program',
             'target' => 'field_program',
             'unique' => FALSE,
           ),
-          19 => array(
+          18 => array(
             'source' => 'School',
             'target' => 'field_school:label',
             'unique' => FALSE,
           ),
-          20 => array(
+          19 => array(
             'source' => 'District',
             'target' => 'field_district:label',
+            'unique' => FALSE,
+          ),
+          20 => array(
+            'source' => 'Preparation for further education or employment',
+            'target' => 'field_preparation_edu_employment',
             'unique' => FALSE,
           ),
         ),

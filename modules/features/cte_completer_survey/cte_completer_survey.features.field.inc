@@ -1177,7 +1177,7 @@ function cte_completer_survey_field_default_fields() {
       'entity_type' => 'entityform',
       'field_name' => 'field_seeking_employment',
       'label' => 'Seeking employment',
-      'required' => 1,
+      'required' => 0,
       'settings' => array(
         'user_register_form' => FALSE,
       ),
