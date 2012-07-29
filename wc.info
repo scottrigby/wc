@@ -36,6 +36,7 @@ dependencies[] = og_ui
 
 ; Contrib: Importing
 dependencies[] = feeds_ui
+dependencies[] = field_validation_ui
 
 ; Contrib: Developer
 dependencies[] = admin_menu_toolbar
