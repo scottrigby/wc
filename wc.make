@@ -9,6 +9,7 @@ projects[entity][version] = "1.x-dev"
 projects[entity][subdir] = "contrib"
 projects[entityform][version] = "1.x-dev"
 projects[entityform][subdir] = "contrib"
+projects[entityform][patch][] = "http://drupal.org/files/entityform-1701496-11.patch"
 projects[features][subdir] = "contrib"
 projects[highcharts][version] = 2.x-dev
 projects[highcharts][subdir] = "contrib"
