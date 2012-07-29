@@ -5,6 +5,16 @@
  */
 
 /**
+ * Implements hook_ctools_plugin_api().
+ */
+function cte_completer_survey_ctools_plugin_api() {
+  list($module, $api) = func_get_args();
+  if ($module == "feeds" && $api == "feeds_importer_default") {
+    return array("version" => "1");
+  }
+}
+
+/**
  * Implements hook_default_entityform_type().
  */
 function cte_completer_survey_default_entityform_type() {

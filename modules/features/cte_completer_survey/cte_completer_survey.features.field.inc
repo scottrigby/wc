@@ -63,7 +63,7 @@ function cte_completer_survey_field_default_fields() {
         'module' => 'options',
         'settings' => array(),
         'type' => 'options_buttons',
-        'weight' => '15',
+        'weight' => '16',
       ),
     ),
   );
@@ -123,7 +123,7 @@ function cte_completer_survey_field_default_fields() {
         'module' => 'options',
         'settings' => array(),
         'type' => 'options_buttons',
-        'weight' => '17',
+        'weight' => '18',
       ),
     ),
   );
@@ -171,7 +171,7 @@ function cte_completer_survey_field_default_fields() {
       'entity_type' => 'entityform',
       'field_name' => 'field_certification_or_license',
       'label' => 'Certification or license',
-      'required' => 1,
+      'required' => 0,
       'settings' => array(
         'user_register_form' => FALSE,
       ),
@@ -180,7 +180,7 @@ function cte_completer_survey_field_default_fields() {
         'module' => 'options',
         'settings' => array(),
         'type' => 'options_buttons',
-        'weight' => '4',
+        'weight' => '5',
       ),
     ),
   );
@@ -237,7 +237,7 @@ function cte_completer_survey_field_default_fields() {
         'module' => 'options',
         'settings' => array(),
         'type' => 'options_buttons',
-        'weight' => '13',
+        'weight' => '14',
       ),
     ),
   );
@@ -298,7 +298,7 @@ function cte_completer_survey_field_default_fields() {
           'rows' => '3',
         ),
         'type' => 'text_textarea',
-        'weight' => '19',
+        'weight' => '20',
       ),
     ),
   );
@@ -356,7 +356,7 @@ function cte_completer_survey_field_default_fields() {
         'module' => 'options',
         'settings' => array(),
         'type' => 'options_buttons',
-        'weight' => '18',
+        'weight' => '19',
       ),
     ),
   );
@@ -413,7 +413,7 @@ function cte_completer_survey_field_default_fields() {
         'module' => 'options',
         'settings' => array(),
         'type' => 'options_buttons',
-        'weight' => '12',
+        'weight' => '13',
       ),
     ),
   );
@@ -470,7 +470,7 @@ function cte_completer_survey_field_default_fields() {
         'module' => 'options',
         'settings' => array(),
         'type' => 'options_buttons',
-        'weight' => '11',
+        'weight' => '12',
       ),
     ),
   );
@@ -529,7 +529,7 @@ function cte_completer_survey_field_default_fields() {
         'module' => 'options',
         'settings' => array(),
         'type' => 'options_buttons',
-        'weight' => '14',
+        'weight' => '15',
       ),
     ),
   );
@@ -622,7 +622,7 @@ function cte_completer_survey_field_default_fields() {
           'size' => '60',
         ),
         'type' => 'entityreference_autocomplete',
-        'weight' => '2',
+        'weight' => '3',
       ),
     ),
   );
@@ -670,7 +670,7 @@ function cte_completer_survey_field_default_fields() {
       'entity_type' => 'entityform',
       'field_name' => 'field_employed_full_time',
       'label' => 'Employed full time',
-      'required' => 1,
+      'required' => 0,
       'settings' => array(
         'user_register_form' => FALSE,
       ),
@@ -679,7 +679,7 @@ function cte_completer_survey_field_default_fields() {
         'module' => 'options',
         'settings' => array(),
         'type' => 'options_buttons',
-        'weight' => '7',
+        'weight' => '8',
       ),
     ),
   );
@@ -727,7 +727,7 @@ function cte_completer_survey_field_default_fields() {
       'entity_type' => 'entityform',
       'field_name' => 'field_employed_part_time',
       'label' => 'Employed part time',
-      'required' => 1,
+      'required' => 0,
       'settings' => array(
         'user_register_form' => FALSE,
       ),
@@ -736,7 +736,7 @@ function cte_completer_survey_field_default_fields() {
         'module' => 'options',
         'settings' => array(),
         'type' => 'options_buttons',
-        'weight' => '8',
+        'weight' => '9',
       ),
     ),
   );
@@ -793,7 +793,7 @@ function cte_completer_survey_field_default_fields() {
         'module' => 'options',
         'settings' => array(),
         'type' => 'options_buttons',
-        'weight' => '16',
+        'weight' => '17',
       ),
     ),
   );
@@ -841,7 +841,7 @@ function cte_completer_survey_field_default_fields() {
       'entity_type' => 'entityform',
       'field_name' => 'field_on_active_duty',
       'label' => 'On active duty',
-      'required' => 1,
+      'required' => 0,
       'settings' => array(
         'user_register_form' => FALSE,
       ),
@@ -850,7 +850,7 @@ function cte_completer_survey_field_default_fields() {
         'module' => 'options',
         'settings' => array(),
         'type' => 'options_buttons',
-        'weight' => '6',
+        'weight' => '7',
       ),
     ),
   );
@@ -873,7 +873,7 @@ function cte_completer_survey_field_default_fields() {
       'module' => 'list',
       'settings' => array(
         'allowed_values' => array(
-          'Very satisfied' => 'Very satisfied',
+          'Very Satisfied' => 'Very Satisfied',
           'Satisfied' => 'Satisfied',
           'Dissatisfied' => 'Dissatisfied',
         ),
@@ -900,7 +900,7 @@ function cte_completer_survey_field_default_fields() {
       'entity_type' => 'entityform',
       'field_name' => 'field_preparation_edu_employment',
       'label' => 'Preparation for further education or employment',
-      'required' => 1,
+      'required' => 0,
       'settings' => array(
         'user_register_form' => FALSE,
       ),
@@ -909,7 +909,7 @@ function cte_completer_survey_field_default_fields() {
         'module' => 'options',
         'settings' => array(),
         'type' => 'options_buttons',
-        'weight' => '3',
+        'weight' => '4',
       ),
     ),
   );
@@ -965,7 +965,7 @@ function cte_completer_survey_field_default_fields() {
       'entity_type' => 'entityform',
       'field_name' => 'field_program',
       'label' => 'Program',
-      'required' => 1,
+      'required' => 0,
       'settings' => array(
         'user_register_form' => FALSE,
       ),
@@ -974,7 +974,7 @@ function cte_completer_survey_field_default_fields() {
         'module' => 'options',
         'settings' => array(),
         'type' => 'options_select',
-        'weight' => '0',
+        'weight' => '1',
       ),
     ),
   );
@@ -1036,7 +1036,7 @@ function cte_completer_survey_field_default_fields() {
         'module' => 'options',
         'settings' => array(),
         'type' => 'options_buttons',
-        'weight' => '10',
+        'weight' => '11',
       ),
     ),
   );
@@ -1129,7 +1129,7 @@ function cte_completer_survey_field_default_fields() {
           'size' => '60',
         ),
         'type' => 'entityreference_autocomplete',
-        'weight' => '1',
+        'weight' => '2',
       ),
     ),
   );
@@ -1186,7 +1186,63 @@ function cte_completer_survey_field_default_fields() {
         'module' => 'options',
         'settings' => array(),
         'type' => 'options_buttons',
-        'weight' => '9',
+        'weight' => '10',
+      ),
+    ),
+  );
+
+  // Exported field: 'entityform-cte_completer_survey-field_srn'.
+  $fields['entityform-cte_completer_survey-field_srn'] = array(
+    'field_config' => array(
+      'active' => '1',
+      'cardinality' => '1',
+      'deleted' => '0',
+      'entity_types' => array(),
+      'field_name' => 'field_srn',
+      'foreign keys' => array(),
+      'indexes' => array(),
+      'locked' => '0',
+      'module' => 'number',
+      'settings' => array(),
+      'translatable' => '0',
+      'type' => 'number_integer',
+    ),
+    'field_instance' => array(
+      'bundle' => 'cte_completer_survey',
+      'default_value' => NULL,
+      'deleted' => '0',
+      'description' => '',
+      'display' => array(
+        'default' => array(
+          'label' => 'above',
+          'module' => 'number',
+          'settings' => array(
+            'decimal_separator' => '.',
+            'prefix_suffix' => TRUE,
+            'scale' => 0,
+            'thousand_separator' => ' ',
+          ),
+          'type' => 'number_integer',
+          'weight' => 20,
+        ),
+      ),
+      'entity_type' => 'entityform',
+      'field_name' => 'field_srn',
+      'label' => 'SRN',
+      'required' => 0,
+      'settings' => array(
+        'max' => '',
+        'min' => '',
+        'prefix' => '',
+        'suffix' => '',
+        'user_register_form' => FALSE,
+      ),
+      'widget' => array(
+        'active' => 0,
+        'module' => 'number',
+        'settings' => array(),
+        'type' => 'number',
+        'weight' => 0,
       ),
     ),
   );
@@ -1234,7 +1290,7 @@ function cte_completer_survey_field_default_fields() {
       'entity_type' => 'entityform',
       'field_name' => 'field_working_to_obtain_certific',
       'label' => 'Working to obtain certification or license',
-      'required' => 1,
+      'required' => 0,
       'settings' => array(
         'user_register_form' => FALSE,
       ),
@@ -1243,7 +1299,7 @@ function cte_completer_survey_field_default_fields() {
         'module' => 'options',
         'settings' => array(),
         'type' => 'options_buttons',
-        'weight' => '5',
+        'weight' => '6',
       ),
     ),
   );
@@ -1698,6 +1754,7 @@ function cte_completer_survey_field_default_fields() {
   t('Preparation for further education or employment');
   t('Program');
   t('Reason not employed');
+  t('SRN');
   t('School');
   t('Seeking employment');
   t('To what extent is / was your area of study related to the CTE program you completed in high school?');
