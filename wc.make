@@ -13,7 +13,9 @@ projects[entityform][patch][] = "http://drupal.org/files/entityform-1701496-11.p
 projects[entityform][patch][] = "http://drupal.org/files/entityform-property-values-required-1704748-1.patch"
 projects[entityform][patch][] = "http://drupal.org/files/entityform-uid0-1704752-1.patch"
 projects[features][subdir] = "contrib"
+projects[field_validation][version] = 2.x-dev
 projects[field_validation][subdir] = "contrib"
+projects[field_validation][patch][] = "http://drupal.org/files/field_validation-feeds-unique-target-661606-87.patch"
 projects[field_validation][version] = 2.x-dev
 projects[highcharts][version] = 2.x-dev
 projects[highcharts][subdir] = "contrib"
@@ -34,6 +36,7 @@ projects[views_bulk_operations][subdir] = "contrib
 projects[feeds][version] = 2.x-dev
 projects[feeds][subdir] = "contrib"
 projects[feeds][patch][] = "http://drupal.org/files/1033202-69-feeds-generic_entity_processor.patch"
+projects[feeds][patch][] = "http://drupal.org/files/feeds-unique-target-661606-87.patch"
 projects[job_scheduler][subdir] = "contrib"
 
 ; Contrib: Developer
