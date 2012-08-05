@@ -16,7 +16,6 @@ projects[features][subdir] = "contrib"
 projects[field_validation][version] = 2.x-dev
 projects[field_validation][subdir] = "contrib"
 projects[field_validation][patch][] = "http://drupal.org/files/field_validation-feeds-unique-target-661606-107.patch"
-projects[field_validation][patch][] = "http://drupal.org/files/field_validation-colspan-1713626-1.patch"
 projects[field_validation][version] = 2.x-dev
 projects[highcharts][version] = 2.x-dev
 projects[highcharts][subdir] = "contrib"
@@ -24,6 +23,11 @@ projects[libraries][subdir] = "contrib"
 projects[rules][version] = 2.x-dev
 projects[rules][subdir] = "contrib"
 projects[views][subdir] = "contrib"
+
+; Contrib: Sandbox
+projects[field_analytics][subdir] = "contrib"
+projects[field_analytics][download][type] = "file"
+projects[field_analytics][download][url] = "http://drupalcode.org/sandbox/scottrigby/1714136.git/snapshot/94aa3b26618ba526ab22ed74c09f2b175ad3b196.tar.gz"
 
 ; Contrib: Groups
 projects[og][version] = 2.x-dev
