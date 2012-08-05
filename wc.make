@@ -35,7 +35,7 @@ projects[og][subdir] = "contrib"
 projects[entityreference][subdir] = "contrib"
 projects[entityreference][patch][] = "http://drupal.org/files/entityreference-feeds_integration-1616680-10.patch"
 projects[entityreference_prepopulate][subdir] = "contrib"
-projects[views_bulk_operations][subdir] = "contrib
+projects[views_bulk_operations][subdir] = "contrib"
 
 ; Contrib: Importing
 projects[feeds][version] = 2.x-dev
