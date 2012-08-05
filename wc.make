@@ -25,6 +25,7 @@ projects[rules][subdir] = "contrib"
 projects[views][subdir] = "contrib"
 
 ; Contrib: Sandbox
+projects[field_analytics][type] = "module"
 projects[field_analytics][subdir] = "contrib"
 projects[field_analytics][download][type] = "file"
 projects[field_analytics][download][url] = "http://drupalcode.org/sandbox/scottrigby/1714136.git/snapshot/94aa3b26618ba526ab22ed74c09f2b175ad3b196.tar.gz"
