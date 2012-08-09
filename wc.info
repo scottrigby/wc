@@ -28,6 +28,7 @@ dependencies[] = rdf
 
 ; Contrib: Charts
 dependencies[] = entityform
+dependencies[] = field_analytics
 dependencies[] = highcharts_views
 dependencies[] = views_ui
 
